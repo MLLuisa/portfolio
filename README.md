@@ -1,2 +1,2 @@
 # portfolio
-Porfolio with my proyects
+Portfolio with my proyects
