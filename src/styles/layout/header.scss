@@ -1,0 +1,58 @@
+.title {
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-size: 38px;
+}
+
+.job, .name {
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.name {
+    font-size: 26px;
+}
+
+.job {
+    font-size: 18px;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    line-height: 0px;
+}
+
+.wrapper-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    margin-left: 10px;
+}
+
+.image-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.image-profile {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.wrapperAboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.textAboutMe {
+    line-height: 25px;
+    width: 500px;
+}
