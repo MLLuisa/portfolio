@@ -8,6 +8,17 @@
     font-family: 'Fuzzy Bubbles', cursive;
 }
 
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header-name {
+    max-width: 350px;
+}
+
 .name {
     font-size: 26px;
 }
@@ -16,23 +27,7 @@
     font-size: 18px;
 }
 
-.header-section {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    line-height: 0px;
-}
-
-.wrapper-details {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 300px;
-    margin-left: 10px;
-}
-
-.image-wrapper {
+.header-image{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -41,18 +36,21 @@
 
 .image-profile {
     width: 200px;
-    height: 250px;
+    height: 100%;
     border-radius: 50%;
 }
 
-.wrapperAboutMe {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-content: flex-end;
-}
+// .wrapperAboutMe {
+//     display: flex;
+//     flex-direction: column;
+// }
 
-.textAboutMe {
-    line-height: 25px;
-    width: 500px;
-}
+// .titleAboutMe {
+//     text-align: center;
+// }
+
+// .textAboutMe {
+//     line-height: 25px;
+//     width: 500px;
+//     text-align: center;
+// }
