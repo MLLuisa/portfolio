@@ -1,6 +1,5 @@
 import photo from "../images/image.jpg";
 import React from "react";
-import {Link} from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -13,11 +12,6 @@ const Header = () => {
       <figure className="header-image">
         <img src={photo} alt="profile" className="image-profile" />
       </figure>
-      </div>
-      <div className="links">
-      <Link to='https://twitter.com/MariaLuisa_04' target='blank'>Twitter</Link>
-      <a href="https://twitter.com/MariaLuisa_04" target='blank'><p>Twitter</p></a>
-
       </div>
       {/* <div className='wrapperAboutMe'>
         <h4 className="titleAboutMe">About me</h4>
