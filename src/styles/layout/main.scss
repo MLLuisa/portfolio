@@ -1,0 +1,24 @@
+.title-proyects {
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.proyect-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.proyectOne, .proyectTwo,  .proyectThree{
+    width: 500px;
+    border: 2px dotted grey;
+    border-radius: 10px;
+}
+
+.groupOne, .groupTwo, .groupThree {
+    width: 500px;
+    border: 2px dotted grey;
+    border-radius: 10px;
+}

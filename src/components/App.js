@@ -1,5 +1,7 @@
-import Header from './Header';
+import React from "react";
 import '../styles/App.scss';
+import Header from './Header';
+import Main from './Main';
 
 
 function App() {
@@ -9,6 +11,9 @@ function App() {
       <header>
         <Header />
       </header>
+      <main>
+        <Main />
+      </main>
     </div>
   );
 }
