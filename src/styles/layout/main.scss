@@ -5,20 +5,74 @@
 }
 
 .proyect-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 50px;
+    @media all and (min-width: 480px) {
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    @media all and (min-width: 720px) {
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    @media all and (min-width: 1024px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
 }
 
 .proyectOne, .proyectTwo,  .proyectThree{
-    width: 500px;
-    border: 2px dotted grey;
-    border-radius: 10px;
+    @media all and (min-width: 480px) {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px dotted grey;
+        border-radius: 10px;
+    }
+    @media all and (min-width: 720px) {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px dotted grey;
+        border-radius: 10px;
+    }
+    @media all and (min-width: 1024px) {
+        width: 500px;
+        border: 2px dotted grey;
+        border-radius: 10px;
+    }
 }
 
 .groupOne, .groupTwo, .groupThree {
-    width: 500px;
-    border: 2px dotted grey;
-    border-radius: 10px;
+    @media all and (min-width: 480px) {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px dotted grey;
+        border-radius: 10px;
+    }
+    @media all and (min-width: 720px) {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px dotted grey;
+        border-radius: 10px;
+    }
+    @media all and (min-width: 1024px) {
+        width: 500px;
+        border: 2px dotted grey;
+        border-radius: 10px;
+    }
+
 }

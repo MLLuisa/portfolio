@@ -1,9 +1,11 @@
 import proyect1 from '../images/proyect1.png';
+import { NavLink } from 'react-router-dom';
 
 const ProyectOne = () => {
-    return (<a href='https://github.com/MLLuisa/modulo-1-evaluacion-final-MLLuisa' target='blank'>
+    return (
+    <NavLink to='/proyectOne' >
         <img src={proyect1} alt="proyectOne" className='proyectOne'/>
-         </a>
+    </NavLink>
     )
 }
 
