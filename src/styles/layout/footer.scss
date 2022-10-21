@@ -1,0 +1,19 @@
+.footer {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    border-top: 2px black dotted;
+}
+
+.fa-linkedin, .fa-github {
+    background-color: none;
+    padding-top: 14px;
+    font-size: 26px;
+    color: black;
+}
+
+.fa-linkedin:hover, .fa-github:hover {
+    color: red;
+}

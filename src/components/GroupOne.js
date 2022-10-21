@@ -1,7 +1,10 @@
 import group1 from '../images/group1.png';
 
 const GroupOne = () => {
-    return (<img src={group1} alt="groupOne" className='groupOne'/>)
+    return (
+    <a href='https://mlluisa.github.io/project-promo-q-module-1-team-3/' target='blank' title='click here to see the webpage'>
+    <img src={group1} alt="groupOne" className='groupOne'/>
+    </a>)
 }
 
 export default GroupOne;
