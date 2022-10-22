@@ -7,8 +7,9 @@ import GroupThree from './GroupThree';
 
 
 const Main = () => {
-    return (<><div>
-        <h3 className="title-proyects">This are some of my proyects ⬇️</h3>
+    return (<>
+    <div>
+        <h3 className="title-proyects">This are some of my projects ⬇️</h3>
         </div>
         <div className='proyect-wrapper'>
             <ProyectOne />

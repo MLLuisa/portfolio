@@ -1,10 +1,11 @@
 .footer {
-    height: auto;
+    height: 4rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 10px;
     border-top: 2px black dotted;
+    position: sticky;
 }
 
 .fa-linkedin, .fa-github {
