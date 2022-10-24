@@ -1,5 +1,6 @@
 const Footer = () => {
     return (<>
+    <div className="footer">
     <a href='https://www.linkedin.com/in/marialuisalufrano/' target='blank'>
     <i className="fa-brands fa-linkedin">
     </i>
@@ -8,6 +9,8 @@ const Footer = () => {
     <i className="fa-brands fa-github">
     </i>
     </a>
+    <p>Created with love by Maria Luisa 🙃</p>
+    </div>
     </>)
 }
 

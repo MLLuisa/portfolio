@@ -8,9 +8,8 @@ import GroupThree from './GroupThree';
 
 const Main = () => {
     return (<>
-    <div>
+    <div className='main'>
         <h3 className="title-proyects">This are some of my projects ⬇️</h3>
-        </div>
         <div className='proyect-wrapper'>
             <ProyectOne />
             <ProyectTwo />
@@ -19,6 +18,7 @@ const Main = () => {
             <GroupTwo />
             <GroupThree />
         </div>
+    </div>
         </>
 
     

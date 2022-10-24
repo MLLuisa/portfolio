@@ -8,13 +8,13 @@ import Main from './Main';
 function App() {
   return (
     <div className="App">
-      <header>
+      <header className="header">
         <Header />
       </header>
-      <main className="main">
+      <main>
         <Main />
       </main>
-      <footer className="footer">
+      <footer>
         <Footer />
       </footer>
     </div>
