@@ -1,21 +1,42 @@
 .footer {
     @media screen and (min-width: 320px) {
         position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid black;
+        margin-bottom: 5px;
     }
     @media screen and (min-width: 720px) {
         position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid black;
+        margin-bottom: 5px;
     }
     @media screen and (min-width: 1024px) {
         position: static;
-        bottom: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid black;
+        margin-bottom: 5px;
     }
 }
 
 .fa-linkedin, .fa-github {
-    background-color: none;
-    padding-top: 14px;
-    font-size: 26px;
+    font-size: 20px;
     color: black;
+    margin-top: 2px;
+    padding-bottom: 0;
+}
+
+.fa-solid {
+    color: blue;
 }
 
 .fa-linkedin:hover, .fa-github:hover {

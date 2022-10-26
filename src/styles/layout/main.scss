@@ -19,7 +19,7 @@
         text-align: center;
         font-size: 26px;
         font-family: 'Fuzzy Bubbles', cursive;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
 }
 
@@ -43,62 +43,91 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        gap: 20px;
-        margin-top: 80px;
+        gap: 5px;
+        margin-bottom: 10px;
     }
 }
 
 .proyectOne, .proyectTwo,  .proyectThree{
     @media all and (min-width: 320px) {
-        width: 300px;
+        width: 250px;
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 2px dotted grey;
-        border-radius: 10px;
-        padding: 6px;
     }
     @media all and (min-width: 720px) {
         width: 400px;
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 3px dotted grey;
-        border-radius: 10px;
-        padding: 10px;
     }
     @media all and (min-width: 1024px) {
         width: 500px;
-        border: 3px dotted grey;
-        border-radius: 10px;
-        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
 .groupOne, .groupTwo, .groupThree {
     @media all and (min-width: 320px) {
-        width: 300px;
+        width: 250px;
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 2px dotted grey;
-        border-radius: 10px;
-        padding: 6px;
     }
     @media all and (min-width: 720px) {
         width: 400px;
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 3px dotted grey;
-        border-radius: 10px;
-        padding: 10px;
     }
     @media all and (min-width: 1024px) {
         width: 500px;
-        border: 3px dotted grey;
         border-radius: 10px;
         padding: 10px;
     }
+}
 
+.wrapper-project-one, .wrapper-project-two, .wrapper-project-three, .wrapper-group-one, .wrapper-group-two, .wrapper-group-three {
+    @media screen and (min-width: 320px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px dotted grey;
+        border-radius: 10px;
+        padding: 3px;
+    }
+    @media screen and (min-width: 720px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px dotted grey;
+        border-radius: 10px;
+        padding: 3px;
+    }
+    @media screen and (min-width: 1024px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px dotted grey;
+        border-radius: 10px;
+        padding: 3px;
+        margin-right: 40px;
+    }
+}
+
+.description-projects {
+    @media screen and (min-width: 320px) {
+        font-size: 14px;
+    }
+    @media screen and (min-width: 720px) {
+        font-size: 16px;
+    }
+    @media screen and (min-width: 1024px) {
+        font-size: 18px;
+    }
 }

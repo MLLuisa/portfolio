@@ -2,7 +2,8 @@ const Footer = () => {
     return (<>
     <div className="footer">
         <div className="wrapper-links">
-        <p className="contacts">Contact me ➡️</p>
+        <p className="contacts">Contact me </p>
+        <i className="fa-solid fa-arrow-right"></i>
     <a href='https://www.linkedin.com/in/marialuisalufrano/' target='blank'>
     <i className="fa-brands fa-linkedin">
     </i>
