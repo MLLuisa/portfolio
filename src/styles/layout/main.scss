@@ -3,7 +3,7 @@
 }
 
 .title-proyects {
-    @media screen and (min-width: 320px) {
+    @media screen and (min-width: 340px) {
         text-align: center;
         font-size: 22px;
         font-family: 'Fuzzy Bubbles', cursive;
@@ -24,7 +24,7 @@
 }
 
 .proyect-wrapper {
-    @media screen and (min-width: 320px) {
+    @media screen and (min-width: 340px) {
         gap: 20px;
         display: flex;
         justify-content: center;
@@ -49,7 +49,7 @@
 }
 
 .proyectOne, .proyectTwo,  .proyectThree{
-    @media all and (min-width: 320px) {
+    @media all and (min-width: 340px) {
         width: 250px;
         display: flex;
         justify-content: center;
@@ -70,7 +70,7 @@
 }
 
 .groupOne, .groupTwo, .groupThree {
-    @media all and (min-width: 320px) {
+    @media all and (min-width: 340px) {
         width: 250px;
         display: flex;
         justify-content: center;
@@ -90,7 +90,7 @@
 }
 
 .wrapper-project-one, .wrapper-project-two, .wrapper-project-three, .wrapper-group-one, .wrapper-group-two, .wrapper-group-three {
-    @media screen and (min-width: 320px) {
+    @media screen and (min-width: 340px) {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -121,7 +121,7 @@
 }
 
 .description-projects {
-    @media screen and (min-width: 320px) {
+    @media screen and (min-width: 340px) {
         font-size: 14px;
     }
     @media screen and (min-width: 720px) {
