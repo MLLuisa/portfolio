@@ -1,13 +1,5 @@
 .header {
-    @media screen and (min-width: 340px) {
-        height: 100px;
-    }
-    @media screen and (min-width: 720px) {
-        height: 100px;
-    }
-    @media screen and (min-width: 1024px) {
-        height: 100px;
-    }
+    height: 100px;
 }
 
 .title {
@@ -17,28 +9,12 @@
 }
 
 .header-section {
-    @media screen and (min-width: 340px) {
-        line-height: 30px;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        text-align: center;
-        margin-top: 0;
-    }
-    @media screen and(min-width: 720px) {
-        line-height: 35px;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        text-align: center;
-    }
-    @media screen and(min-width: 1024px) {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        text-align: center;
-        line-height: 45px;
-    }
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 0;
 }
 
 .header-name {
@@ -48,24 +24,69 @@
 }
 
 .name {
-    @media screen and (min-width: 340px) {
-        font-size: 20px;
+    font-size: 20px;
+}
+
+.job {
+    font-size: 14px;
+}
+
+// tablet 
+
+.header {
+    @media screen and (min-width: 720px) {
+        height: 100px;
     }
+}
+
+.header-section {
+    @media screen and(min-width: 720px) {
+        line-height: 35px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+.job {
+    @media screen and (min-width: 720px) {
+        font-size: 18px;
+    }
+}
+
+.name {
     @media screen and (min-width: 720px) {
         font-size: 22px;
     }
+}
+
+
+// desktop
+
+.header {
+    @media screen and (min-width: 1024px) {
+        height: 100px;
+    }
+}
+
+.header-section {
+    @media screen and(min-width: 1024px) {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        line-height: 45px;
+    }
+}
+
+.name {
     @media screen and (min-width: 1024px) {
         font-size: 26px;
     }    
 }
 
 .job {
-    @media screen and (min-width: 340px) {
-        font-size: 14px;
-    }
-    @media screen and (min-width: 720px) {
-        font-size: 18px;
-    }
     @media screen and (min-width: 1024px) {
         font-size: 20px;
     }

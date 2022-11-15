@@ -1,31 +1,11 @@
 .footer {
-    @media screen and (min-width: 340px) {
-        position: static;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-top: 1px solid black;
-        margin-bottom: 5px;
-    }
-    @media screen and (min-width: 720px) {
-        position: static;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-top: 1px solid black;
-        margin-bottom: 5px;
-    }
-    @media screen and (min-width: 1024px) {
-        position: static;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-top: 1px solid black;
-        margin-bottom: 5px;
-    }
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    margin-bottom: 5px;
 }
 
 .fa-linkedin, .fa-github {
@@ -50,24 +30,58 @@
 }
 
 .author {
-    @media screen and (min-width: 340px) {
-        font-size: 13px;
-    } 
+    font-size: 13px;
+} 
+
+.contacts {
+    font-size: 13px;
+}
+
+// tablet
+.footer {
+    @media screen and (min-width: 720px) {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid black;
+        margin-bottom: 5px;
+    }
+}
+
+.author {
     @media screen and (min-width: 720px) {
         font-size: 16px;
-    } 
+    }
+}
+
+.contacts {
+    @media screen and (min-width: 720px) {
+        font-size: 16px;
+    }
+}
+
+// desktop
+.footer {
+    @media screen and (min-width: 1024px) {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid black;
+        margin-bottom: 5px;
+    }
+}
+
+.author {
     @media screen and (min-width: 1024px) {
         font-size: 18px;
     } 
 }
 
 .contacts {
-    @media screen and (min-width: 340px) {
-        font-size: 13px;
-    } 
-    @media screen and (min-width: 720px) {
-        font-size: 16px;
-    } 
     @media screen and (min-width: 1024px) {
         font-size: 18px;
     }

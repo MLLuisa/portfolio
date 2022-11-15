@@ -4,12 +4,14 @@
 }
 
 .aboutMe {
-    @media screen and (min-width: 340px) {
-        text-align: center;
-        border: 1px solid grey;
-        border-radius: 5px;
-        padding: 5px;
-    }
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+// tablet
+.aboutMe {
     @media screen and (min-width: 720px) {
         text-align: center;
         border: 1px solid grey;
@@ -22,6 +24,10 @@
         align-items: center;
         margin: auto;
     }
+}
+
+// desktop
+.aboutMe {
     @media screen and (min-width: 1024px) {
         text-align: center;
         border: 1px solid grey;
